@@ -10,15 +10,15 @@ function App(){
       }
       else if(date >= 12 && date < 16){
         greet = "Afternoon";
-        css.color = "orange"
+        css.color = "yellow"
       }
       else if(date >= 16 && date < 21){
         greet = "Evening";
-        css.color = "orange"
+        css.color = "grey"
       }
       else{
         greet = "Night"
-        css.color = "orange"
+        css.color = "black"
       }
     return(
         <>
